@@ -26,7 +26,7 @@ class Employment extends Component {
                             duration:3
                         }}
                     >
-                        <h1 style={{color: 'white', fontFamily: 'Roboto', textAlign:'center', lineHeight:'0.5em', marginBottom:"2%"}}>Employment</h1>
+                        <h1 style={{color: 'white', fontFamily: 'Roboto', textAlign:'center', lineHeight:'0.5em', marginBottom:"4%"}}>Employment</h1>
                         <motion.nav 
                         initial={{x: -300}}
                         animate={{x:0}}
@@ -138,7 +138,7 @@ class Employment extends Component {
 
                                     <Grid>
                                         <Cell col={6}>
-                                            <img alt ="" src="/images/idtech1.jpg" ></img>
+                                            <motion.img whileTap={{ scale: 1.2 }} alt ="" src="/images/idtech1.jpg" ></motion.img>
                                         </Cell>
 
                                         <Cell col={6}>
@@ -164,7 +164,7 @@ class Employment extends Component {
                         
                             {/*Stanford*/}
                             <motion.div
-                            style={{paddingTop: '10%', paddingBottom: '15%'}}
+                            // style={{paddingTop: '10%', paddingBottom: '15%'}}
                             className="employment">
                             <section id="3">
                                 <Grid>
@@ -182,7 +182,7 @@ class Employment extends Component {
 
                                     <Grid>
                                         <Cell col={6}>
-                                        <img style={{width: '100%'}} alt ="" src="/images/stanford2.jpg" ></img>
+                                        <motion.img whileTap={{ scale: 1.2 }} style={{width: '100%'}} alt ="" src="/images/stanfordReal.jpg"></motion.img>
 
                                         </Cell>
 
@@ -228,7 +228,7 @@ class Employment extends Component {
 
                                     <Grid>
                                         <Cell col={6}>
-                                        <img style={{width:'100%'}} alt ="" src="/images/parisBaguette2.jpg" ></img>
+                                        <motion.img whileTap={{ scale: 1.2 }} style={{width:'100%'}} alt ="" src="/images/parisBaguette2.jpg" ></motion.img>
                                         </Cell>
                                         <Cell col={6}>
                                         <ul className="b">

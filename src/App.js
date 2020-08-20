@@ -52,15 +52,18 @@ function App() {
                         </motion.div>
 
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
-                        <Link to="/aboutme" className="header-text">Resume</Link>
+                        <Link to="/resume" className="header-text">Resume</Link>
                         </motion.div>
                         
                     
                     </Navigation>
                 </Header>
 
+            
                 <Drawer title="" >
+                    <div style={{height:'100%', backgroundColor: '#B4CDCD'}}>
 
+                    
                     <Navigation>
 
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
@@ -78,9 +81,15 @@ function App() {
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
                         <Link to="/aboutme" className="side-bar-text">About Me</Link>
                         </motion.div>
+
+                        <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }}>
+                        <Link to="/resume" className="side-bar-text">Resume</Link>
+                        </motion.div>
                         
 
                     </Navigation>
+
+                    </div>
                 </Drawer>    
                 
                 <Content>

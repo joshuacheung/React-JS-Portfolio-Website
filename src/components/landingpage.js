@@ -78,7 +78,7 @@ class Landing extends Component {
                 <Cell col = {3}>
                 {/* <div style={{paddingTop: '100%', position: 'relative'}}>   <img src="/images/ODkb-unscreen.gif" width="150%" height="150%" style={{position: 'absolute', top:'0', left:'0'}} frameBorder="0" allowFullScreen></img></div> */}
 
-                    <motion.img src="/images/pngwave-removebg-preview.png" style={{width:'140%', borderRadius: '10px', position: 'relative', right:'30px', bottom: '20px'}} alt=""
+                    <motion.img src="/images/lightbulb1-removebg-preview.png" style={{width:'50vw', borderRadius: '10px', position: 'relative', right:'45%', bottom: '10%'}} alt=""
                     
                     initial={{
                         opacity:0

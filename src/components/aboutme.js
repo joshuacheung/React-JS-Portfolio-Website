@@ -124,8 +124,8 @@ class About extends Component {
                     
                     
                     <br></br><br></br><br></br>
-                    <h1 className="welcome-text-name" style={{textAlign:'center', paddingLeft: '3%', lineHeight:'0.5em'}}>About Me</h1>
-                    <h1 className="welcome-text-name" style={{textAlign:'center', paddingLeft: '2%', fontSize:'3vw', lineHeight:'1em', color:'#ff3399', fontWeight: 'bold'}}>.....................</h1>
+
+                    <h1 style={{textAlign:'center', lineHeight:'0.5em', fontFamily:'Roboto', fontSize:'7.5vw', color:'white', paddingBottom:'5%'}}>About Me</h1>
                     
                     <motion.div 
                     className="characteristics" 
@@ -179,12 +179,23 @@ class About extends Component {
                             </Cell>
                         </Grid>
 
-                        <motion.p 
-                        variants={loadingParagraphVariants}
-                        transition={{duration:4}}
-                        >I believe that the four traits above are the characterisitcs I try to uphold in every environment that I am in. I understand that as a new grad, I have much to learn and much to adapt to. This mentality 
-                            allows me to keep a humble yet ambitious mindset in being determined to grasp new skills and information. I am also a firm believer in being someone who is relational; to make friends which enables healthier and happier environments.
-                        </motion.p>
+
+                        <Grid>
+                            <Cell col={6}>
+                                <motion.p 
+                                variants={loadingParagraphVariants}
+                                transition={{duration:4}}
+                                style={{marginLeft:'5%'}}
+                                >I believe that the four traits above are the characterisitcs I try to uphold in every environment that I am in. I understand that as a new grad, I have much to learn and much to adapt to. This mentality 
+                                    allows me to keep a humble yet ambitious mindset in being determined to grasp new skills and information. I am also a firm believer in being someone who is relational; to make friends which enables healthier and happier environments.
+                                </motion.p>
+                            </Cell>
+                            <Cell col={6}>
+                                <motion.img variants={loadingParagraphVariants}
+                                transition={{duration:4}} style={{width:'60%', display:'block', marginLeft: 'auto', marginRight:'auto'}} src="/images/meprofile.JPG" alt=""></motion.img>
+                            </Cell>
+                        </Grid>
+                        
                         <br></br><br></br><br></br>
 
                         
