@@ -4,21 +4,20 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from "framer-motion";
-import { Grid, Cell } from 'react-mdl';
-
+import lightbulb from "./components/images/ODkb-unscreen.gif"
 
 function App() {
   return (
     <div>
         <AnimatePresence>
-        <motion.div 
+            <motion.div 
             
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{duration: 1}}
+            // transition={{duration: 2.5}}
             >
-           <img  class="center-image" src="/images/ODkb-unscreen.gif" frameBorder="0"></img>
+           <img  class="center-image" src={lightbulb} frameBorder="0"></img>
            <p class="center-image">Lighting up portfolio...</p>
            {/* <img src="/images/beach.jpg" alt=""></img> */}
 
@@ -29,7 +28,7 @@ function App() {
         <motion.div 
         initial={{opacity: 0}}
         animate={{opacity: 1}}
-        transition={{delay: 1, duration: 1}}
+        transition={{delay: 2.5, duration: 2.5}}
         
         className="demo-big-content">
             <Layout fixedHeader>

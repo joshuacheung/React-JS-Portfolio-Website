@@ -6,10 +6,12 @@ import AboutMe from './aboutme';
 import Projects from './projects';
 import Employment from './employment';
 import Resume from './resume'
+import Landing from './landingpage';
 
 
 const Main = () => (
   <Switch>
+    <Route exact path="/React-JS-Portfolio-Website" component={LandingPage} />
     <Route exact path="/" component={LandingPage} />
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/projects" component={Projects} />
