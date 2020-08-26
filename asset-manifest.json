@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/React-JS-Portfolio-Website/static/css/main.7b00b5f9.chunk.css",
-    "main.js": "/React-JS-Portfolio-Website/static/js/main.7eb5e41c.chunk.js",
-    "main.js.map": "/React-JS-Portfolio-Website/static/js/main.7eb5e41c.chunk.js.map",
+    "main.js": "/React-JS-Portfolio-Website/static/js/main.93d08190.chunk.js",
+    "main.js.map": "/React-JS-Portfolio-Website/static/js/main.93d08190.chunk.js.map",
     "runtime-main.js": "/React-JS-Portfolio-Website/static/js/runtime-main.ec5271b5.js",
     "runtime-main.js.map": "/React-JS-Portfolio-Website/static/js/runtime-main.ec5271b5.js.map",
     "static/css/2.c8724d48.chunk.css": "/React-JS-Portfolio-Website/static/css/2.c8724d48.chunk.css",
-    "static/js/2.e939c401.chunk.js": "/React-JS-Portfolio-Website/static/js/2.e939c401.chunk.js",
-    "static/js/2.e939c401.chunk.js.map": "/React-JS-Portfolio-Website/static/js/2.e939c401.chunk.js.map",
+    "static/js/2.704ea8e2.chunk.js": "/React-JS-Portfolio-Website/static/js/2.704ea8e2.chunk.js",
+    "static/js/2.704ea8e2.chunk.js.map": "/React-JS-Portfolio-Website/static/js/2.704ea8e2.chunk.js.map",
     "index.html": "/React-JS-Portfolio-Website/index.html",
-    "precache-manifest.bf8b65432c54bafc1d2bdb48d557f973.js": "/React-JS-Portfolio-Website/precache-manifest.bf8b65432c54bafc1d2bdb48d557f973.js",
+    "precache-manifest.7a590c1141e145137202c2f2418af80c.js": "/React-JS-Portfolio-Website/precache-manifest.7a590c1141e145137202c2f2418af80c.js",
     "service-worker.js": "/React-JS-Portfolio-Website/service-worker.js",
     "static/css/2.c8724d48.chunk.css.map": "/React-JS-Portfolio-Website/static/css/2.c8724d48.chunk.css.map",
     "static/css/main.7b00b5f9.chunk.css.map": "/React-JS-Portfolio-Website/static/css/main.7b00b5f9.chunk.css.map",
-    "static/js/2.e939c401.chunk.js.LICENSE.txt": "/React-JS-Portfolio-Website/static/js/2.e939c401.chunk.js.LICENSE.txt",
+    "static/js/2.704ea8e2.chunk.js.LICENSE.txt": "/React-JS-Portfolio-Website/static/js/2.704ea8e2.chunk.js.LICENSE.txt",
+    "static/media/ODkb-unscreen.gif": "/React-JS-Portfolio-Website/static/media/ODkb-unscreen.0d99cf13.gif",
     "static/media/beach.JPG": "/React-JS-Portfolio-Website/static/media/beach.60ca8cf0.JPG",
     "static/media/boardwalk.JPG": "/React-JS-Portfolio-Website/static/media/boardwalk.946cd34d.JPG",
     "static/media/cisco2.jpg": "/React-JS-Portfolio-Website/static/media/cisco2.a1b12462.jpg",
@@ -39,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.ec5271b5.js",
     "static/css/2.c8724d48.chunk.css",
-    "static/js/2.e939c401.chunk.js",
+    "static/js/2.704ea8e2.chunk.js",
     "static/css/main.7b00b5f9.chunk.css",
-    "static/js/main.7eb5e41c.chunk.js"
+    "static/js/main.93d08190.chunk.js"
   ]
 }
