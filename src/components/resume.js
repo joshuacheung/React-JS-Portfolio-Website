@@ -11,7 +11,7 @@ class Resume extends Component {
             style={{ height: '110%'}}
             className="header-color">
                 <div>
-                <img src="/images/resume_screenshot.png" alt="" style={{display: 'block', marginLeft:'auto', marginRight:'auto'}}></img>
+                <img src="/images/final-resume-screenshot.png" alt="" style={{display: 'block', marginLeft:'auto', marginRight:'auto'}}></img>
                 </div>
                 
                 <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} style={{textAlign:'center', fontFamily:'Roboto', fontSize:'2vw', marginTop:'2%'}}>

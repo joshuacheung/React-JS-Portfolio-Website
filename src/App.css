@@ -234,7 +234,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 .employment h2{
   color:#141E30;
   font-size: 3vw;
-  font-family: 'Roboto';
+  font-family: 'Playfair Display';
   text-align: center;
 
 }
@@ -242,7 +242,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
 .employment2 h2{
   color:white;
   font-size: 3vw;
-  font-family: 'Roboto';
+  font-family: 'Playfair Display';
   text-align: center;
 
 }
