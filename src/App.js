@@ -16,7 +16,7 @@ function App() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            transition={{duration: 2.5}}
+            transition={{duration: 1}}
             >
            <img  class="center-image" src="/images/ODkb-unscreen.gif" frameBorder="0"></img>
            <p class="center-image">Lighting up portfolio...</p>
@@ -29,7 +29,7 @@ function App() {
         <motion.div 
         initial={{opacity: 0}}
         animate={{opacity: 1}}
-        transition={{delay: 3, duration: 2}}
+        transition={{delay: 1, duration: 1}}
         
         className="demo-big-content">
             <Layout fixedHeader>

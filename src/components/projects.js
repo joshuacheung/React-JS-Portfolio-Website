@@ -11,7 +11,7 @@ class Projects extends Component {
 
   render(){
     return(
-      <div className="header-color" style={{paddingBottom: '15%'}}>
+      <div className="header-color" style={{paddingBottom: '15%', height: '130%'}}>
 
         <Tabs activeTab = {this.state.activeTab} onChange = {(tabId) => this.setState({activeTab: tabId})} ripple>
         <Tab style={{color:"white"}}>WebDev</Tab>

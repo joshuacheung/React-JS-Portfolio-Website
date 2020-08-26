@@ -263,6 +263,7 @@ background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, F
   color: black;
   margin: 0 1em;
   text-decoration: none;
+  font-size: 1.75vw;
 }
 
 

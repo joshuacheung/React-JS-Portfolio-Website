@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import {Override, useTransform, motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
+import cisco from "./images/cisco2.jpg"
+import idtech from "./images/idtech1.JPG"
+import stanford from "./images/stanfordReal.jpg"
+import parisbaguette from "./images/parisBaguette2.jpg"
 
 
 class Employment extends Component {
@@ -80,7 +84,7 @@ class Employment extends Component {
 
                                 <Grid>
                                     <Cell col={6}>
-                                    <motion.img whileTap={{ scale: 1.2 }} alt ="" src="/images/cisco2.jpg" ></motion.img>
+                                    <motion.img whileTap={{ scale: 1.2 }} alt ="" src={cisco} ></motion.img>
                                     </Cell>
 
                                     <Cell col={6}>
@@ -138,7 +142,7 @@ class Employment extends Component {
 
                                     <Grid>
                                         <Cell col={6}>
-                                            <motion.img whileTap={{ scale: 1.2 }} alt ="" src="/images/idtech1.jpg" ></motion.img>
+                                            <motion.img whileTap={{ scale: 1.2 }} alt ="" src={idtech} ></motion.img>
                                         </Cell>
 
                                         <Cell col={6}>
@@ -182,7 +186,7 @@ class Employment extends Component {
 
                                     <Grid>
                                         <Cell col={6}>
-                                        <motion.img whileTap={{ scale: 1.2 }} style={{width: '100%'}} alt ="" src="/images/stanfordReal.jpg"></motion.img>
+                                        <motion.img whileTap={{ scale: 1.2 }} style={{width: '100%'}} alt ="" src={stanford}></motion.img>
 
                                         </Cell>
 
@@ -228,7 +232,7 @@ class Employment extends Component {
 
                                     <Grid>
                                         <Cell col={6}>
-                                        <motion.img whileTap={{ scale: 1.2 }} style={{width:'100%'}} alt ="" src="/images/parisBaguette2.jpg" ></motion.img>
+                                        <motion.img whileTap={{ scale: 1.2 }} style={{width:'100%'}} alt ="" src={parisbaguette} ></motion.img>
                                         </Cell>
                                         <Cell col={6}>
                                         <ul className="b">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import { motion } from "framer-motion";
-
+import lightbulb from './images/lightbulb1-removebg-preview.png';
 
 class Landing extends Component {
     render() {
@@ -78,7 +78,7 @@ class Landing extends Component {
                 <Cell col = {3}>
                 {/* <div style={{paddingTop: '100%', position: 'relative'}}>   <img src="/images/ODkb-unscreen.gif" width="150%" height="150%" style={{position: 'absolute', top:'0', left:'0'}} frameBorder="0" allowFullScreen></img></div> */}
 
-                    <motion.img src="/images/lightbulb1-removebg-preview.png" style={{width:'50vw', borderRadius: '10px', position: 'relative', right:'45%', bottom: '10%'}} alt=""
+                    <motion.img src={lightbulb} style={{width:'50vw', borderRadius: '10px', position: 'relative', right:'45%', bottom: '10%'}} alt=""
                     
                     initial={{
                         opacity:0

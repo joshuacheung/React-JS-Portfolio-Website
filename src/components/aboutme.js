@@ -4,55 +4,71 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick"
 import { Grid, Cell } from 'react-mdl';
 import { motion } from "framer-motion";
+import beach from "./images/beach.JPG";
+import boardwalk from "./images/boardwalk.JPG";
+import city from "./images/city.JPG";
+import woods from "./images/woods.JPG";
+import cityFriends from "./images/cityFriends.JPG";
+import instagramWorship from "./images/instagramWorship.PNG";
+import coffee from "./images/coffee.JPG";
+import coyoteHills from "./images/coyoteHills.JPG";
+import weddingSpeech from "./images/weddingSpeech.jpg";
+import instagramCore from "./images/instagramCore.PNG";
+import recordShop from "./images/recordShop.JPG";
+import schoolNight from "./images/schoolNight.JPG";
+import meProfile from "./images/meprofile.JPG";
+
+
+
 
 const photos = [
     {
         name:'Beach',
-        url: '/images/beach.jpg'
+        url: beach
     },
     {
         name:'Boardwalk',
-        url: '/images/boardwalk.jpg'
+        url: boardwalk
     },
     {
         name:'city',
-        url: '/images/city.jpg'
+        url: city
     },
     {
         name:'woods',
-        url: '/images/woods.jpg'
+        url: woods
     },
     {
         name:'cityFriends',
-        url: '/images/cityFriends.jpg'
+        url: cityFriends
     },
     {
         name:'instagramWorship',
-        url: '/images/instagramWorship.png'
+        url: instagramWorship
     },
     {
         name:'coffee',
-        url: '/images/coffee.jpg'
+        url: coffee
     },
     {
         name:'Coyote Hills',
-        url: '/images/coyoteHills.jpg'
+        url: coyoteHills
     },
     {
         name:'Wedding Speech',
-        url: '/images/weddingSpeech.jpg'
+        url: weddingSpeech
     },
     {
         name:'instagram core',
-        url: '/images/instagramCore.png'
+        url: instagramCore
     },
     {
         name:'record shop',
-        url: '/images/recordShop.jpg'
+        url: recordShop
     },
     {
         name:'school',
-        url: '/images/schoolNight.jpg'
+        url: schoolNight
     },
 
 ]
@@ -192,7 +208,7 @@ class About extends Component {
                             </Cell>
                             <Cell col={6}>
                                 <motion.img variants={loadingParagraphVariants}
-                                transition={{duration:4}} style={{width:'60%', display:'block', marginLeft: 'auto', marginRight:'auto'}} src="/images/meprofile.JPG" alt=""></motion.img>
+                                transition={{duration:4}} style={{width:'60%', display:'block', marginLeft: 'auto', marginRight:'auto'}} src={meProfile} alt=""></motion.img>
                             </Cell>
                         </Grid>
                         
