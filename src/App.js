@@ -35,7 +35,7 @@ function App() {
                 <Header className="header-color" title="" scroll>
                     <Navigation>
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
-                        <Link className="header-text" to="/">Home</Link>
+                        <Link className="header-text" to="/React-JS-Portfolio-Website">Home</Link>
                         </motion.div>
 
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
@@ -66,7 +66,7 @@ function App() {
                     <Navigation>
 
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >
-                        <Link className="side-bar-text" to="/">Home</Link>
+                        <Link className="side-bar-text" to="/React-JS-Portfolio-Website">Home</Link>
                         </motion.div>
                         
                         <motion.div whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.8 }} >

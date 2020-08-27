@@ -89,12 +89,12 @@ class About extends Component {
         const loadingContainerVariants = {
             start: {
               transition: {
-                staggerChildren: 0.7
+                staggerChildren: 0.4
               }
             },
             end: {
               transition: {
-                staggerChildren: 0.7
+                staggerChildren: 0.4
               }
             }
           };
@@ -131,7 +131,7 @@ class About extends Component {
           };
 
           const loadingCircleTransition = {
-            duration: 1.5,
+            duration: 1,
             ease: "easeIn"
           };
         return(

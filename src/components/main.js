@@ -12,7 +12,6 @@ import Landing from './landingpage';
 const Main = () => (
   <Switch>
     <Route exact path="/React-JS-Portfolio-Website" component={LandingPage} />
-    <Route exact path="/" component={LandingPage} />
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/projects" component={Projects} />
     <Route path="/employment" component={Employment} />
