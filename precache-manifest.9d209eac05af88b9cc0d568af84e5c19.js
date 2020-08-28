@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5aeb9374e300cd221d66ad22ff03b794",
+    "revision": "2848e2bf8192f8384299e42fe7b9302b",
     "url": "/React-JS-Portfolio-Website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-JS-Portfolio-Website/static/css/2.c8724d48.chunk.css"
   },
   {
-    "revision": "72a3102925e862565b66",
+    "revision": "276e7da33ef5b2a93417",
     "url": "/React-JS-Portfolio-Website/static/css/main.7b00b5f9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-JS-Portfolio-Website/static/js/2.704ea8e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72a3102925e862565b66",
-    "url": "/React-JS-Portfolio-Website/static/js/main.6462d896.chunk.js"
+    "revision": "276e7da33ef5b2a93417",
+    "url": "/React-JS-Portfolio-Website/static/js/main.bb329659.chunk.js"
   },
   {
     "revision": "0ff113e533a73fc6e48b",
@@ -60,14 +60,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-JS-Portfolio-Website/static/media/coyoteHills.748fbe7b.JPG"
   },
   {
-    "revision": "164e5c16ac0a81e7df2ec3c3fff1b220",
-    "url": "/React-JS-Portfolio-Website/static/media/final-resume-screenshot.164e5c16.png"
-  },
-  {
-    "revision": "79f01d3ed90dba7ddd7bb9b2336f0b5a",
-    "url": "/React-JS-Portfolio-Website/static/media/finalResume.79f01d3e.pdf"
-  },
-  {
     "revision": "2004a53c30f625d5d7aaad30be2ca90f",
     "url": "/React-JS-Portfolio-Website/static/media/idtech1.2004a53c.JPG"
   },
@@ -94,6 +86,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "324f98e2ad788236503ac70042f55756",
     "url": "/React-JS-Portfolio-Website/static/media/recordShop.324f98e2.JPG"
+  },
+  {
+    "revision": "c7742021cb8697401f54d8a2f76a6bc9",
+    "url": "/React-JS-Portfolio-Website/static/media/resumePDF.c7742021.pdf"
+  },
+  {
+    "revision": "4c1d0339ff1806aab4cfb6925d8ade6f",
+    "url": "/React-JS-Portfolio-Website/static/media/resumeScreenshot.4c1d0339.png"
   },
   {
     "revision": "fd3680c678317b0b835d496c27d5e542",
