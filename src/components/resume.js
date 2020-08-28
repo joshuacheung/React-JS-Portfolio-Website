@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import {Override, useTransform, motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
-import resume from "./images/finalResume.pdf";
-import resumeScreenshot from "./images/final-resume-screenshot.png";
+import resume from "./images/resumePDF.pdf";
+import resumeScreenshot from "./images/resumeScreenshot.png";
 
 
 class Resume extends Component {
