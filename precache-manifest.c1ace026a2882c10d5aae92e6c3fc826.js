@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13b212da922c3671788366f3598b1580",
+    "revision": "f7f1fd93ccf43e842bd65f421d855882",
     "url": "/React-JS-Portfolio-Website/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-JS-Portfolio-Website/static/css/2.c8724d48.chunk.css"
   },
   {
-    "revision": "164410b6f0fe7cec56ed",
+    "revision": "f61d3f95143fe64a93b1",
     "url": "/React-JS-Portfolio-Website/static/css/main.3ba98288.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-JS-Portfolio-Website/static/js/2.704ea8e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "164410b6f0fe7cec56ed",
-    "url": "/React-JS-Portfolio-Website/static/js/main.bb329659.chunk.js"
+    "revision": "f61d3f95143fe64a93b1",
+    "url": "/React-JS-Portfolio-Website/static/js/main.cc91164c.chunk.js"
   },
   {
     "revision": "0ff113e533a73fc6e48b",
@@ -72,6 +72,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/React-JS-Portfolio-Website/static/media/instagramWorship.744aeed1.PNG"
   },
   {
+    "revision": "6e38337c7f18a065c293fa8f5062419c",
+    "url": "/React-JS-Portfolio-Website/static/media/joshua_fs_resume_screenshot.6e38337c.png"
+  },
+  {
+    "revision": "daf75e806cf16161e06575f6a290fa80",
+    "url": "/React-JS-Portfolio-Website/static/media/joshuacheungresume_fs.daf75e80.pdf"
+  },
+  {
     "revision": "1b33f2f7bd11c69e316db0d9a997fa5f",
     "url": "/React-JS-Portfolio-Website/static/media/lightbulb1-removebg-preview.1b33f2f7.png"
   },
@@ -86,14 +94,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "324f98e2ad788236503ac70042f55756",
     "url": "/React-JS-Portfolio-Website/static/media/recordShop.324f98e2.JPG"
-  },
-  {
-    "revision": "c7742021cb8697401f54d8a2f76a6bc9",
-    "url": "/React-JS-Portfolio-Website/static/media/resumePDF.c7742021.pdf"
-  },
-  {
-    "revision": "4c1d0339ff1806aab4cfb6925d8ade6f",
-    "url": "/React-JS-Portfolio-Website/static/media/resumeScreenshot.4c1d0339.png"
   },
   {
     "revision": "fd3680c678317b0b835d496c27d5e542",
