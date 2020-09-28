@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import {Override, useTransform, motion } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
-import resume from "./images/resumePDF.pdf";
-import resumeScreenshot from "./images/resumeScreenshot.png";
+import resume from "./images/joshuacheungresume_fs.pdf";
+import resumeScreenshot from "./images/joshua_fs_resume_screenshot.png";
 
 
 class Resume extends Component {
@@ -20,7 +20,9 @@ class Resume extends Component {
                     <a style={{textDecoration:'none', color:'#add8e6'}} href={resume} target="_blank">Download Resume</a>       
 
                 </motion.div>
-                
+                <div>
+                    
+                </div>
                 
             </motion.div>
         );

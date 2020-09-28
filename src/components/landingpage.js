@@ -33,7 +33,7 @@ class Landing extends Component {
                         x:600
                     }}
                     animate={{
-                        x:30
+                        x:25
                     }}
                     transition={{
                         // delay:1.5,
@@ -42,24 +42,26 @@ class Landing extends Component {
                     className="welcome-text-name">Joshua Cheung 
                     </motion.h1>
 
-                    {/* <motion.h1 
+                    <motion.h1 
                     initial={{
-                        x:800
+                        x:700
                     }}
                     animate={{
-                        x:50
+                        x:30
                     }}
                     transition={{
                         duration:2
                     }}
-                    className="welcome-text"> Portfolio 
-                    </motion.h1> */}
+                    className="welcome-text">  Full Stack Developer
+                    </motion.h1>
                     <motion.p 
                     initial={{
                         y:-100
                     }}
                     animate={{
-                        y:0
+                        y:0,
+                        x:-10
+                        
                     }}
                     transition={{
                         // delay:1.5,
